@@ -85,7 +85,6 @@ https://github.com/user-attachments/assets/494d4e35-3d02-44d1-920a-c3051be9b31e
 </body>
 </html>
 </html>
-Sure, I can help you update your code to include videos in addition to photos. Below is the updated code to include videos in your gallery.
 
 HTML
 <!DOCTYPE html>
@@ -250,54 +249,4 @@ HTML
 <body>
     <div class="container">
         <h1>I Love My Girlfriend</h1>
-        <p>This page is dedicated to the most amazing person in my life. She's kind, beautiful, and makes every day an adventure. I'm so lucky to have her, and I wanted to create a special place to show my appreciation.</p>
-        <div class="upload-section">
-            <h2>Upload Memories</h2>
-            <input type="file" id="imageUpload" name="imageUpload" accept="image/*"> <br>
-            <input type="file" id="videoUpload" name="videoUpload" accept="video/*"> <br><br>
-            <button onclick="uploadFiles()">Upload</button> <br><br>
-            <div id="fileStatus"></div>
-        </div>
-    </div>
-
-    <script>
-        function uploadFiles() {
-            const imageUpload = document.getElementById('imageUpload');
-            const videoUpload = document.getElementById('videoUpload');
-            const fileStatus = document.getElementById('fileStatus');
-
-            const files = [];
-
-            if (imageUpload.files.length > 0) {
-                for (const file of imageUpload.files) {
-                    files.push(file);
-                }
-            }
-
-            if (videoUpload.files.length > 0) {
-                for (const file of videoUpload.files) {
-                    files.push(file);
-                }
-            }
-
-            if (files.length === 0) {
-                fileStatus.textContent = "No files selected.";
-                return;
-            }
-
-            fileStatus.textContent = "Uploading...";
-
-            setTimeout(() => {
-                fileStatus.textContent = "Upload Complete (Simulated)";
-                imageUpload.value = '';
-                videoUpload.value = '';
-            }, 2000);
-
-            // Note: Implement server-side code to handle file uploads in a real application.
-        }
-    </script>
-</body>
-</html>
-
-https://github.com/user-attachments/assets/cb6f12d1-f490-451e-a898-8a9e68417fc5
 
