@@ -1,7 +1,4 @@
 
-
-https://github.com/user-attachments/assets/494d4e35-3d02-44d1-920a-c3051be9b31e
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -181,12 +178,6 @@ HTML
 
 </body>
 </html>
- Public code references from 1 repository
-This updated HTML includes both images and videos in the gallery. The media class is used for both images and videos to apply consistent styling.
-
-1 reference
-How is this
-Your HTML code looks good and includes functionality to upload both images and videos. However, keep in mind that the file upload is currently simulated and doesn't actually send files to a server. Here's a slightly refined version to ensure clarity and better practices:
 
 HTML
 <!DOCTYPE html>
